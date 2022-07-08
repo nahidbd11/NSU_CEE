@@ -54,7 +54,7 @@ const Login = () => {
 									Email
 								</label>{" "}
 								<input
-									required
+									
 									type="email"
 									name="email"
 									id="email"
@@ -69,7 +69,7 @@ const Login = () => {
 									Password
 								</label>{" "}
 								<input
-									required
+									
 									type="password"
 									name="password"
 									id="password"
