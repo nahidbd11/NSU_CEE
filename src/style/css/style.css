@@ -1,0 +1,249 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@import "./../../index.css";
+@import "./../../App.css";
+@import "../css/qlab_button.css";
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+.button-create {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+.button-create:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.button-create:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+.button-create:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button-edit {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #1d0972 0, #5d6de4 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+.button-edit:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.button-edit:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+.button-edit:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.button-cancel {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #b12626 0, #cf2c2c 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, rgba(58, 65, 111, 0.5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono", monospace;
+  height: 28px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow, transform;
+  font-size: 18px;
+}
+.button-cancel:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+.button-cancel:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+.button-cancel:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.btn-editProfile {
+  position: relative;
+  padding: 1em 1.5em;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+  font-size: 15px;
+  margin: 1em 0em;
+  color: #2a6da0;
+}
+
+.btn-editProfile::after,
+.btn-editProfile::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  border: 2px solid;
+  transition: all 0.6s ease;
+  border-radius: 2px;
+}
+
+.btn-editProfile::after {
+  bottom: 0;
+  right: 0;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: #435a6b;
+  border-right-color: #435a6b;
+}
+
+.btn-editProfile::before {
+  top: 0;
+  left: 0;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  border-top-color: #435a6b;
+  border-left-color: #435a6b;
+}
+
+.btn-editProfile:hover:after,
+.btn-editProfile:hover:before {
+  border-bottom-color: #435a6b;
+  border-right-color: #435a6b;
+  border-top-color: #435a6b;
+  border-left-color: #435a6b;
+  width: 100%;
+  height: 100%;
+}
+
+.breadcrumb {
+  background-color: transparent !important;
+}
+
+.th-bg {
+  background-color: #2b7dbc !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 15px !important;
+}
+
+.graph-table-th {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9em !important;
+  font-weight: 700;
+}
+
+.nav-link.active {
+  background-color: #06265f !important;
+}
+
+td {
+  color: #76838f !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+table,
+thead,
+tr,
+tbody,
+th,
+td {
+  text-align: center !important;
+}
+
+.table td {
+  text-align: center !important;
+}
+
+table {
+  border-collapse: separate !important;
+  border: none !important;
+}
+
+.del-icon {
+  animation: upsdown 1s ease-in infinite alternate;
+}
+
+@keyframes upsdown {
+  from {
+    transform: translateY(-10px) skewX(10deg);
+  }
+  to {
+    transform: translateY(0px) skewX(-10deg);
+  }
+}
+.viewmodal-info-header {
+  text-decoration: underline !important;
+  font-family: "JetBrains Mono", monospace !important;
+}
+
+.viewmodal-text {
+  font-size: 1.2em !important;
+}
